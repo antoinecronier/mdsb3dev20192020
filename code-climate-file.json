@@ -1,0 +1,114 @@
+[
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "f2f737c8875a48a68e430ecd9f515825708634e0694cf2e17aa80b8976693fae",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 16
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre args devrait être final.",
+    "fingerprint": "0ddecebcaa08b98a40ab1f6bf148b2f0722f062e2c08785470d628dbc9efd439",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 16
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027App\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getGreeting\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "54c058fd1f4ef2d2f3e831f0fb178754c178bab169e248663f87fe03b97f1584",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "4412153c4884097b45c43432304da74e04468458cb273a40daa6629a23e65a67",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/App.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "La ligne excède 80 caractères (trouvé 82).",
+    "fingerprint": "cb72d33361e265a6e262187f9a2b67e50eaac724ddd0021a2552cb9c2e10a369",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/AppTest.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "L\u0027utilisation des import.* est prohibé - org.junit.jupiter.api.Assertions.*.",
+    "fingerprint": "c41032cb6d1311609408c9973e4c50349bef112b6d495ead5965a9633d8d5afc",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/AppTest.java",
+      "lines": {
+        "begin": 7
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "58d7e486ee01b6996c5caf1e954f923ca767c806934bd76dfacc2a4b214e79b2",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/AppTest.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  }
+]
