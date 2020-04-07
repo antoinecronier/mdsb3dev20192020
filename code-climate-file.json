@@ -1,5 +1,69 @@
 [
   {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002727\u0027-\u002733\u0027).\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "4b32f7841ad59e29b62b0fef9de33cdb571248181d2da309ed67b0459fc41781",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 27
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "The String literal \u0026quot;jean\u0026quot; appears 4 times in this file; the first occurrence is on line 18\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#avoidduplicateliterals",
+    "fingerprint": "ccd1c097753178ede0700c7f45dce14f2777452e01cab077dec57227cbf82c8f",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 18
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "The String literal \u0026quot;michel\u0026quot; appears 4 times in this file; the first occurrence is on line 18\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#avoidduplicateliterals",
+    "fingerprint": "9bff07e0f25daaa519c19819846bbeeaa6ce9d484cf13df294e36d0727751f81",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 18
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found \u0027DD\u0027-anomaly for variable \u0027isValid\u0027 (lines \u002717\u0027-\u002720\u0027).\n\n\nError Prone https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis",
+    "fingerprint": "3728f71dcdaddfb31fa1adc8bc3a3937e7a2e4372387941432e724eb8bf81c78",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "info",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
     "description": "Commentaire Javadoc manquant.",
     "fingerprint": "f2f737c8875a48a68e430ecd9f515825708634e0694cf2e17aa80b8976693fae",
     "location": {
@@ -64,6 +128,374 @@
     "check_name": "Checkstyle"
   },
   {
+    "description": "\u0027lastname\u0027 masque un attribut.",
+    "fingerprint": "db1ebaadb0012c2e2de00ca09554120f160df9fb05fcb6cc5de83e4a2a4ab705",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setLastname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "5e05ec56447323f836484fe556b7cbcafc936fad7253b1b18fe0dbeaf541f646",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "617e35be7cc761b79204a27be29c2095dd986149a5a51cda1e798b058c73ad6c",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre lastname devrait être final.",
+    "fingerprint": "3b4d5b65f869eff3f17e988b161bf80a7e11b227ee007dcfdfd8ddb8c476224b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getLastname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "c46abf7c2e403588481bc07da868a7bf14e24a152bc5d94e7968dfd9d531ce87",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "cdca539fe93b881feac8d1a67edcc08fc09232700a187170286aff4c3e1ff9a8",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027firstname\u0027 masque un attribut.",
+    "fingerprint": "070240f6eefa2a6a9d10440c9909b8d00da94d5ba39e987a67ed6bc70e23e258",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setFirstname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "0bc8e2faf16a77a48fc5b1b09055fa27b27ea01e2fd518767d9bad87e031317c",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "fcfe71bc3f258d6aea27a86a463e0e99b93dce41a50cb9d438e9cf9be0925ff7",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre firstname devrait être final.",
+    "fingerprint": "bf0a9c03e6e25ef78ee6bf493757b13386262bf25d5c19a0b9e3f863579a8c07",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getFirstname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "3e8c53d5acbe909108da882e9a790f473b9c0aa79dfe73626635f827bceb5942",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "2996fdc2b0671142d16e3c617dcfdba9b853ab9fb11fe10ade99f9b42e2465b6",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027firstname\u0027 masque un attribut.",
+    "fingerprint": "110d3891e80c1903b6f4b43f6215859449d15392c14e87eaf2f3fd629cb9f53a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027lastname\u0027 masque un attribut.",
+    "fingerprint": "71cab2c8a32956a30f3e13137cdc4d466da0ea4643069e0f934d58267ddc2429",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "e8346aaefc5f679eac9fdc67f116c192a05c6333499e9f5bf925cf34088e7adc",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre firstname devrait être final.",
+    "fingerprint": "b4e4e3c141a9969ce43e6ac1955e95e83389233d5b3c48d2ead1525629a06aad",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre lastname devrait être final.",
+    "fingerprint": "efac76b2a5a0161c3ed5293374c1cbf374f02c0ea46465a5e864c38b6fd6f8f0",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "ea7adbb48b50cd766f6b4a271b0cd1426a534176bd3f33a26f2ae19c528b2e62",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 7
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "b7a06e08081d8b240d963705343ae4c79b43058132ef5beabb2cf5e99e292b5e",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 5
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "57e1952ffdfa4bd29ff29b19cd3c256c09dd2be6ef47d90e3a03b241c5ac18c2",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/User.java",
+      "lines": {
+        "begin": 4
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Line has trailing spaces.",
+    "fingerprint": "61bb8ecbf0847a5ca2514d814a3e896724401af3460e622574243f8c56dd07f6",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 2
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque un caractère NewLine à la fin du fichier.",
+    "fingerprint": "55d8eb0350e3165472424f1cff608777dd4202895156f5e389cd2e59881ed369",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le commentaire Javadoc est placé au mauvais endroit.",
+    "fingerprint": "09b2886e97b322068ef4a40f182ebb4053b865b523dbf89e35a85a30995ba9ff",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/main/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
     "description": "La ligne excède 80 caractères (trouvé 82).",
     "fingerprint": "cb72d33361e265a6e262187f9a2b67e50eaac724ddd0021a2552cb9c2e10a369",
     "location": {
@@ -100,6 +532,182 @@
     "fingerprint": "58d7e486ee01b6996c5caf1e954f923ca767c806934bd76dfacc2a4b214e79b2",
     "location": {
       "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/AppTest.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "894b6041d3e63947cd32f4fd55739fef5854320fa3f530047609f4c84ebcb336",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 32
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "La ligne excède 80 caractères (trouvé 83).",
+    "fingerprint": "2eb5ebd419625254af679c0786c3b687e8cf26e32de721cce8bc76f94dacaa2e",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 32
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "1686fbf567f27d435f2fd98eeaf01636c0bf1f55f8946a923d186144b58b40f8",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027if\u0027.",
+    "fingerprint": "53ea7c363921457904a5e2b95c0c5b932f97e89152e558f23f632e67a5477bf2",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "La ligne excède 80 caractères (trouvé 83).",
+    "fingerprint": "9bde8c740bc07c51807088940e7d3bebbe2d86fcce65c0ff981b82beea8ecf0e",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027,\u0027.",
+    "fingerprint": "c88ba08428e5b8481281c8cee0032218d1e09fb4daf43e5a17b2858363f4223f",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 18
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "7d4b41e6062deb75db5447ea24959abfe047ef41d8e2d9218f8023c095342702",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "cff1d25736147ab40a79a07112ec05aed3d7c115b00d9f31004217a5c7e02007",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/UserTest.java",
+      "lines": {
+        "begin": 10
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Line has trailing spaces.",
+    "fingerprint": "07414f6d79e30131f0d0e3f978732a1cb5db0c412bc2a0a46f2f12c238757861",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 2
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque un caractère NewLine à la fin du fichier.",
+    "fingerprint": "62ac1f07c93de28b2365848f51a698572fb2c2ba346645e20db16407e9ca877d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le commentaire Javadoc est placé au mauvais endroit.",
+    "fingerprint": "399547486eed50e864c79686029a564a747c489ccd268f4edbb8c3dbe23c4d31",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/mdsb3dev20192020/src/test/java/com/tactfactory/mdsb3dev20192020/entities/package-info.java",
       "lines": {
         "begin": 1
       }

@@ -73,6 +73,10 @@ task pmdMain(type: Pmd, overwrite: true) {
   ignoreFailures = true
 }
 
+task pmdTest(type: Pmd, overwrite: true) {
+  ignoreFailures = true
+}
+
 cpdCheck {
   reports {
     text.enabled = true
@@ -80,6 +84,15 @@ cpdCheck {
   }
   source = sourceSets.main.allJava
   minimumTokenCount = 50
+}
+
+test {
+  useJUnitPlatform()
+  ignoreFailures = true
+  reports {
+    junitXml.enabled = false
+    html.enabled = true
+  }
 }
 
 task violations(type: se.bjurr.violations.gradle.plugin.ViolationsTask) {
